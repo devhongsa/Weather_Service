@@ -9,6 +9,10 @@ spring:
       ddl-auto: update
     show-sql: true
     database: mysql
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
 openweathermap:
   key: a5377c4f0d915dbab478a05041a61377
 logging:
